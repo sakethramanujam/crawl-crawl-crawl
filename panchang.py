@@ -65,7 +65,7 @@ def holidays_panchang(year):
 def generate_dataset_panchang(year: str, path: str):
     yearly = holidays_panchang(year)
     df = pd.DataFrame(yearly)
-    filename = os.path.join(path, f"panchang_{year}.csv")
+    filename = os.path.join(path, f"{year}_panchang.csv")
     df.to_csv(filename, index=False)
 
 def main():
