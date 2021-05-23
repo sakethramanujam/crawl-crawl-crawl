@@ -1,6 +1,8 @@
 # Holidays
 
-scrap websites to generate holiday data in csv format
+scrapes websites to generate holiday data in csv format
 
-1. `panchang.py` scraps https://panchang.astrosage.com/calendars/indiancalendar
-2. `timeanddate.py` scraps https://www.timeanddate.com/holidays/india/
+| script | website scraped |
+| --- | --- |
+| `panchang.py` |https://panchang.astrosage.com/calendars/indiancalendar|
+| `timeanddate.py` |https://www.timeanddate.com/holidays/india/|
